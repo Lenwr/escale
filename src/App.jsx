@@ -5,9 +5,10 @@ const FullScreenVideo = () => {
   return (
     <div className="w-screen h-screen bg-black flex justify-center items-center">
       <ReactPlayer 
-        url="https://www.youtube.com/watch?v=qjc2YrJIzUk&ab_channel=ALIJEZZ"
-        playing={true} // Auto-play activé
+        url="/animationVideo.mp4"
+        playing={true}
         controls
+        loop={true}
         width="100vw"
         height="100vh"
       />
